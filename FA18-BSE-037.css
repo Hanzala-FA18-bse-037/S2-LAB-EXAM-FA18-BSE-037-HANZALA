@@ -2,8 +2,6 @@
   box-sizing: border-box;
 }
 
-/*@import url("https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap");*/
-
 body {
   font-family: "Rubik", sans-serif;
 }
@@ -19,10 +17,6 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  animation-name: left;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  animation-delay: 1s;
 }
 
 .right {
@@ -94,36 +88,6 @@ button.secondary {
 button:disabled {
   background-color: orange;
   cursor: default;
-}
-.animation {
-  animation-name: move;
-  animation-duration: 0.4s;
-  animation-fill-mode: both;
-  animation-delay: 2s;
-}
-
-.a1 {
-  animation-delay: 2s;
-}
-
-.a2 {
-  animation-delay: 2.1s;
-}
-
-.a3 {
-  animation-delay: 2.2s;
-}
-
-.a4 {
-  animation-delay: 2.3s;
-}
-
-.a5 {
-  animation-delay: 2.4s;
-}
-
-.a6 {
-  animation-delay: 2.5s;
 }
 
 @keyframes move {

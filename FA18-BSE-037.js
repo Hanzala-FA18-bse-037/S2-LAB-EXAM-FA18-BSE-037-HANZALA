@@ -42,7 +42,7 @@ $(document).ready(function () {
                     "<td class=\"name\">" + value.name + "</td>" +
                     "<td class=\"email\">" + value.email + "</td>" +
                     "<td>" +
-                    "<a href=\"./view-albums.html?user="+value.id+"\"><button type=\"button\">Album</button></a>" +"   "+
+                    "<a href=\"./album.html?user="+value.id+"\"><button type=\"button\">Album</button></a>" +"   "+
                     "<button class=\"update\">Update Email</button>" +
                     "</td></tr>";
             });
